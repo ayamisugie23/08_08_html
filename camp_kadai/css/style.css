@@ -1,6 +1,11 @@
-/* .box1 { */
-    /* width: 945px; */
-    /* height: 370px; */
+.box1 {
+    width: 945px;
+    height: 370px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
         /* background: red; */
 
     /* 長いバージョン */
@@ -10,30 +15,26 @@
     /* background-size: cover; */
 
     /* 短いバージョン */
-    /* background: url("../img/01.jpg") no-repeat center center; */
-    /* background-size: cover; */
+    background: url("../img/01.jpg") no-repeat center center;
+    background-size: cover;
     /* 上下が0 左右がauto */
-    /* margin: 0 auto;     */
+    margin: 0 auto;    
 }
 
 .box2 p {
+    
     color: white;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-top: 160px;
-}
-
-body {
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 160px;
+    /* padding-top: 160px; */
 }
 
 /* 短いバージョン */
 .box2{
+    width: 945px;
+    height: 370px;
+    padding-top: 160px;
     background: url("../img/02.jpg") no-repeat center center;
     background-size: cover;
     /* 上下が0 左右がauto */
